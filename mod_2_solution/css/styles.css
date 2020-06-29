@@ -37,7 +37,7 @@ body{
 }
 
 .SectionS {
-    font-size: 20px;
+    font-size: 18px;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -53,11 +53,8 @@ background-color:#a2de96 ;
 .HeaderSec3{
 background-color: #ff847c;
 }
-/*This only applies for the third section overwriting the predefined 90% before*/
-.spec{
-    width: 95%;
-    
-}
+
+
 
 
 
@@ -223,6 +220,11 @@ background-color: #ff847c;
     .col-md-12 {
         width: 100%;
        
+    }
+    /*This only applies for the third section overwriting the predefined 90% before*/
+    .spec{
+        width: 95%;
+        
     }
 
 }
