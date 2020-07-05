@@ -1,0 +1,97 @@
+body {
+    background-color: #204051;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+}
+
+/**HEADER**/
+#header-nav {
+    background-color: #3b6978;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    font-family: "Nunito", serif;
+    color: #fff;
+    font-size: 2.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #84a9ac;
+  }
+
+.navbar-collapse{
+    box-shadow: 0;
+    border-top: 0px solid;
+    box-shadow: none; 
+}
+
+/*END HEADER*/
+
+
+
+
+
+
+/**RESPONSIVE SIZES**/
+
+/*Large devices only*/
+@media (min-width: 1200px){
+
+}
+
+/*Medium devices only*/
+@media(min-width:992px) and (max-width:1199px){
+
+}
+/*Small devices only*/
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+/*Extra small devices only*/
+@media(max-width:767px){
+    .navbar-brand h1{
+        font-size: 1.7em;
+    }
+}
+
+/*END RESPONSIVE SIZES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**FONTS**/
+@font-face {
+    src: url(../fonts/Nunito-Regular.ttf);
+    font-family: Nunito;
+}
+
+/*END FONTS*/
