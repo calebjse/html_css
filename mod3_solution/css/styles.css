@@ -13,10 +13,9 @@ body {
 }
 
 .navbar-brand h1 {
-    /* Restaurant name */
     font-family: "Nunito", serif;
     color: #fff;
-    font-size: 2.2em;
+    font-size: 2em;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 0.75;
@@ -27,22 +26,57 @@ body {
     text-decoration: none;
 }
 
+#nav-list {
+    margin-top: 10px;
+}
+
 #nav-list a {
     color: #fff;
     text-align: center;
 }
+
 #nav-list a:hover {
     background: #84a9ac;
-  }
+}
 
-.navbar-collapse{
+#nav-list a span {
+    font-size: 1.2em;
+}
+
+.navbar-collapse {
     box-shadow: 0;
     border-top: 0px solid;
-    box-shadow: none; 
+    box-shadow: none;
 }
 
 /*END HEADER*/
 
+/**MAIN BODY**/
+.menu-item-description{
+    background-color: #84a9ac;
+    margin-bottom: 40px;
+}
+
+#menu-categories-title{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.menu-title, .menu.details{
+    text-align: center;
+}
+
+.menu-item-description h3{
+    font-size: 1.9em;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-weight: bold;
+} 
+
+.menu-item-description p{
+    font-size: 1.4em;
+    margin:0 40px 10px 40px;
+}
+/*END MAIN BODY*/
 
 
 
@@ -51,24 +85,61 @@ body {
 /**RESPONSIVE SIZES**/
 
 /*Large devices only*/
-@media (min-width: 1200px){
-
+@media (min-width: 1200px) {
+    #header-nav {
+        height: 70px;
+    }
+    .navbar-brand h1 {
+        margin-top: 8px;
+    }
 }
 
 /*Medium devices only*/
-@media(min-width:992px) and (max-width:1199px){
-
+@media(min-width:992px) and (max-width:1199px) {
+    #header-nav {
+        height: 70px;
+    }
+    .navbar-brand h1 {
+        margin-top: 8px;
+    }
 }
-/*Small devices only*/
-@media(min-width:768px) and (max-width:991px){
 
+/*Small devices only*/
+@media(min-width:768px) and (max-width:991px) {
+    #header-nav {
+        height: 70px;
+    }
+    .navbar-brand h1 {
+        margin-top: 8px;
+    }
 }
 
 /*Extra small devices only*/
-@media(max-width:767px){
-    .navbar-brand h1{
+@media(max-width:767px) {
+    .navbar-brand h1 {
         font-size: 1.7em;
     }
+
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+        /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    .container{
+        width:85%;
+    }
+    .menu-item-description p{
+        font-size: 1.3em;
+        margin:0 20px 10px 20px;
+    }
+
+
+
 }
 
 /*END RESPONSIVE SIZES*/
